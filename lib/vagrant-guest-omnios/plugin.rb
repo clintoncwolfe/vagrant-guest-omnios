@@ -20,6 +20,17 @@ module VagrantPlugins
         require_relative "cap/mount_nfs_folder"
         Cap::MountNFSFolder
       end
+
+      guest_capability(:omnios, :chef_installed) do
+        require_relative "cap/chef_installed"
+        Cap::ChefInstalled
+      end
+
+      guest_capability(:omnios, :chef_install) do
+        require_relative "cap/chef_install"
+        Cap::ChefInstall
+      end
+
     end
   end
 end
