@@ -4,7 +4,7 @@ $:.push File.expand_path(File.join(File.dirname(__FILE__), "lib"))
 
 Gem::Specification.new do |s|
   s.name              = 'vagrant-guest-omnios'
-  s.version           = '0.0.1'
+  s.version           = '0.1.0'
   s.authors           = 'Mitchell Hashimoto'
   s.email             = 'info@hashicorp.com'
   s.homepage          = 'http://github.com/clintoncwolfe/vagrant-guest-omnios'
